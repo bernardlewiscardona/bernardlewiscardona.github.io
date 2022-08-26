@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Style+Script&display=swap');
+
+.bg-beige{
+    background-color: #F9F5EB;
+}
+.logo-brand{
+    font-family: 'Style Script', cursive;
+}
+.color-blue{
+    color:#1C3879;
+}
+.btn-blue{
+    background-color:#1C3879;
+}
+.nav-font{
+    font-family: 'Lato', sans-serif;
+}
+.btn-orange{
+    background-color: #FF971D;
+}
+.color-orange{
+    color: #FF971D;
+}
+.bg-paw{
+    background-image: url(/img/cool-background.png);
+}
+.font-black{
+    color: #000000;
+}
