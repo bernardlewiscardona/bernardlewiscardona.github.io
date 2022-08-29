@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title> Paw Project</title>
 </head>
 <body>
@@ -22,22 +23,22 @@
                         <a class="nav-link active fs-5 fw-normal" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 fw-normal" href="#">About</a>
+                        <a class="nav-link fs-5 fw-normal" href="#services"">What We Do?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 fw-normal" href="#">Contact</a>
+                        <a class="nav-link fs-5 fw-normal" href="#FAQs">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 fw-normal" href="#">FAQs</a>
+                        <a class="nav-link fs-5 fw-normal" href="adopt.html">Adopt</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 fw-normal" href="#">Services</a>
+                        <a class="nav-link fs-5 fw-normal" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 fw-normal me-2" href="#">Donations</a>
+                        <a class="nav-link fs-5 fw-normal me-2" href="donate.html">Donations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-primary border-0 fs-5 fw-semibold px-4" href="#">Sign in</a>
+                        <a class="btn btn-primary border-0 fs-5 fw-semibold px-4" href="signin.html">Sign in</a>
                     </li>
                 </ul>
             </div>
@@ -53,8 +54,7 @@
                     Animals are not just pets. They are family members and best friends, too. All animals deserve a chance at life. Let us give this animals their new homes.
                 </h3>
                 <div class="d-grid col-6 pt-5">
-                    <button class="btn btn-outline-primary p-3 fs-4 fw-bold mb-4 rounded-5" type="button">Adopt Now</button>
-                    
+                    <a class="btn btn-outline-primary p-3 fs-4 fw-bold mb-4 rounded-5" type="button"  href="/adopt.html"> Adopt Now </a>
                 </div>
                 </div>
                 <div class="col">
@@ -84,7 +84,7 @@
         </div>
     </section>
     <!-- What We Do -->
-    <section class="p-5">
+    <section class="p-5" id="services">
         <div class="container">
             <h1 class="text-center text-dark fw-bold"> What We Do?</h1>
             <div class="d-md-flex d-sm-block mt-5">
@@ -133,10 +133,10 @@
             </div>
         </div>
     </section>
-    <!-- Dog's World -->
+    <!-- Dog's World
     <section class="p-5">
         <div class="container">
-            <h1 class="text-center font-black fw-bold"><span><img class="color" src="https://img.icons8.com/ios-filled/50/1A1A1A/dog-footprint.png"/></span> Dog's World </h1>
+            <h1 class="text-center font-black fw-bold mt-5"><span><img class="color" src="https://img.icons8.com/ios-filled/50/1A1A1A/dog-footprint.png"/></span> Dog's World </h1>
             <div class="d-lg-flex d-md-flex d-sm-block justify-content-evenly gap-4 mt-5 text-center">
                 <div class="card border shadow col-lg-3 col-sm mb-3">
                     <img src="/img/browny.jpg" class="card-img-top" alt="...">
@@ -163,9 +163,13 @@
                     </div>
                 </div>
             </div>
+            <div class="mt-3 text-center">
+                <a class="fs-4 text-decoration-none" href="adopt.html">Show more <i class="bi bi-arrow-right-circle "></i>
+                </a>
+            </div>
         </div>
     </section>
-    <!-- Cat's World -->
+    Cat's World
     <section class="p-5">
         <div class="container">
             <h1 class="text-center font-black fw-bold"><span><img src="https://img.icons8.com/ios-filled/50/000000/cat-footprint.png"/></span> Cat's World </h1>
@@ -195,9 +199,104 @@
                     </div>
                 </div>
             </div>
+            <div class="mt-3 text-center">
+                <a class="fs-4 text-decoration-none" href="adopt.html">Show more <i class="bi bi-arrow-right-circle "></i>
+                </a>
+            </div>
+        </div>
+    </section> -->
+    <!-- Image Gallery -->
+    <section class="p-5">
+        <h1 class="text-center text-dark fw-bold mb-5"> Meet Our Rescued Paw Friends in Our Shelter!</h1>
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-dark shadow" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="/img/bailey.png" class="d-block w-75 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/awok.png" class="d-block w-75 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/orange.png" class="d-block w-75 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </section>
-<script src="//code.tidio.co/utpwc0zyfszyo6fdqovfpkqgkqxwflua.js" async></script>
+    <!-- FAQS -->
+    <section class="p-5" id="FAQs">
+        <h1 class="text-center text-dark fw-bold mb-5"> Frequently Asked Questions</h1>
+        <div class="container">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button fw-semibold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        How can I adopt an animal from Paw Project?
+                        </button>
+                    </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <strong>Applicants must have an account first, submit the requirements and go through a screening process to ensure that our rescued animals go to loving homes.</strong> The process includes a meet a greet with your prospective pet, three (3) separate visits to bond and get to know your chosen animal, and finally, an ocular inspection of your home.
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed fw-semibold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Can you adopt my pet?
+                        </button>
+                    </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <strong>Paw Project does NOT adopt owned pets.</strong> The 100+ animals we have at the shelter are all rescued from cruelty and neglect, and are waiting to be adopted. If you need to give up your pet for some reason, please consider other options.
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed fw-semibold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        Can you help find a home for my pet?
+                        </button>
+                    </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        Responsible pet ownership is a lifetime commitment, which is why we don’t take in abandoned pets. <strong>We can assist in rehoming your pet by advertising within our networks</strong> , NOT by admitting your pet at the shelter, and <strong class="text-danger">ONLY if conditions and qualifications are met.</strong>
+                    </div>
+                </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue bg-beige p-4 border border-top">
+        <div class="footer-copyright text-center text-dark "> 
+            <h5>Copyright © 2022 Paw Project - All Rights Reserved.</h5> 
+            <a href="#"><img src="https://img.icons8.com/dusk/40/000000/facebook--v1.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/dusk/40/000000/youtube-play.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/dusk/40/000000/instagram-new--v1.png"/></a>
+    </div>
+    </footer>
+    <script src="//code.tidio.co/utpwc0zyfszyo6fdqovfpkqgkqxwflua.js" async></script>
 </body>
 <script src="/js/bootstrap.min.js"></script>
 </html>
